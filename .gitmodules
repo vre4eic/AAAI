@@ -1,0 +1,6 @@
+[submodule "ClioPatria"]
+	path = ClioPatria
+	url = https://github.com/ClioPatria/ClioPatria.git
+[submodule "swipl-devel"]
+	path = swipl-devel
+	url = https://github.com/SWI-Prolog/swipl-devel.git
