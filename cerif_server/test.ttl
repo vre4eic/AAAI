@@ -1,0 +1,21 @@
+@prefix local: <http://localhost:3020/ns#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cerif: <http://eurocris.org/ontology/cerif#> .
+
+local:jrvosse 
+	rdfs:label "Jacco van Ossenbruggen" ;
+	rdf:type cerif:Person .
+
+local:vre4eic
+	cerif:has_Acronym "VRE4EIC" ;
+	rdf:type cerif:Project ;
+	cerif:isProjectSourceOf local:jrvosse_vre4eic .
+
+local:jrvosse_vre4eic
+	rdfs:label "Jacco's affiliation with VRE4EIC" ;
+	rdf:type cerif:ProjectPerson ;
+	cerif:hasDestinationPerson local:jrvosse ;
+	cerif:has_startDate "2015-09-01T00:00:00" ;
+	cerif:has_endDate "2018-08-31T00:00:00" .
+
