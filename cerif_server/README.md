@@ -7,15 +7,15 @@ Work in progress
 Make sure a recent version of swipl is in your PATH (see ../swipl-devel for instructions).
 To configure the triple store, run this from the shell:
 
-'''bash
+```bash
 ../ClioPatria/configure
-'''
+```
 
 # Starting the server
 To start the triple store/sparql endpoint/web application framework,
 run this from the shell:
-'''bash
+```bash
 ./run.pl
-'''
+```
 This will load some test data.
 
